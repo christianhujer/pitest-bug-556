@@ -1,6 +1,8 @@
 # Pitest Bug #556
 
 This repository serves as a test case to demonstrate the wrong coverage report by pitest in case of enums.
+The pitest ticket is: https://github.com/hcoles/pitest/issues/556
+
 It contains two tested enums:
 - `SingletonEnum` which represents the use of an enum as Singleton, similar to a regular enum.
 - `UtilityEnum` which represents the use of an enum as utility class.
