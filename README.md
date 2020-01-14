@@ -18,6 +18,8 @@ The actual behavior is that the line coverage is less than 100%: 17% in case of 
 
 The percentages are the line coverage.
 The mutation coverage was always 100% and has thus not been included (deemed irrelevant) in the result.
+Lines without coverage are due to problems.
+For example, prior to Pitest 1.4.11, Java 14 was not supported yet.
 
 | Java | PiTest | Singleton | Utility |
 | ---- | ------ | --------- | ------- |
